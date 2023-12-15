@@ -1,6 +1,6 @@
 import unittest
 import os
-from unittest.mock import patch
+import unittest.mock
 
 from main import getabbr, calculatescores, getbestscore, readfile, outputfile
 
